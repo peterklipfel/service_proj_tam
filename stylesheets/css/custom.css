@@ -1,2 +1,14 @@
 body {
-  background-color: #aaaaaa; }
+  background-color: #100413; }
+
+.circle {
+  background-color: #dddddd;
+  color: #222222;
+  -webkit-border-radius: 15vh;
+  border-radius: 13vh;
+  width: 25vh;
+  height: 25vh;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 13vh;
+  padding-top: 11vh; }

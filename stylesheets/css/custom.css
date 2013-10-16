@@ -1,6 +1,9 @@
 body {
   background-color: #100413; }
 
+.container {
+  height: 100%; }
+
 .circle {
   background-color: #dddddd;
   color: #222222;
@@ -11,4 +14,11 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-top: 13vh;
-  padding-top: 11vh; }
+  padding-top: 11vh;
+  font-weight: 700; }
+
+.row {
+  height: 100%; }
+  .row.about {
+    background-color: #eeeeee;
+    overflow: auto; }

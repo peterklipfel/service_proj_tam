@@ -1,4 +1,4 @@
-$('#myTab a').click(function (e) {
+$('#about-tab a').click(function (e) {
   e.preventDefault()
   console.log($(this))
   $(this).tab('show')

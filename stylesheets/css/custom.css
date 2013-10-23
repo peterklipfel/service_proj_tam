@@ -1,6 +1,16 @@
 body {
   background-color: #100413; }
 
+.navbar-default {
+  height: 80px; }
+  .navbar-default .navbar-nav {
+    font-weight: 700;
+    padding: 15px; }
+    .navbar-default .navbar-nav li {
+      margin-right: 57px; }
+    .navbar-default .navbar-nav i {
+      font-size: 30px; }
+
 .container {
   height: 100%; }
 

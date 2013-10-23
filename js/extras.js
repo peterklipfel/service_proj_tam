@@ -8,4 +8,9 @@ $( function() {
     else
       $('.navbar-fixed-top').hide()
   })
+  if( ($(document).width() > 767) && parseInt($('#about-text').height()) > 600 ){
+    $('.about-image').css('margin-top', 
+      parseInt($('#about-title').outerHeight(true))+parseInt($('#about-tab').outerHeight())
+    )
+  }
 })

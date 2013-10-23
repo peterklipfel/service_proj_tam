@@ -11,10 +11,9 @@ body {
     .navbar-default .navbar-nav i {
       font-size: 30px; }
 
-.container {
-  height: 100%; }
-
-.circle {
+.top-frame .row {
+  margin-bottom: 300px; }
+.top-frame .circle {
   background-color: #dddddd;
   color: #222222;
   -webkit-border-radius: 15vh;
@@ -27,8 +26,21 @@ body {
   padding-top: 11vh;
   font-weight: 700; }
 
-.row {
-  height: 100%; }
-  .row.about {
-    background-color: #eeeeee;
-    overflow: auto; }
+.row.about {
+  background-color: #eeeeee;
+  overflow: auto;
+  padding: 10px 40px; }
+  .row.about img {
+    margin: 0 auto; }
+  .row.about p {
+    font-size: 16px; }
+  .row.about .nav-tabs {
+    border-bottom: none;
+    margin-bottom: 20px; }
+    .row.about .nav-tabs a {
+      color: #222222; }
+    .row.about .nav-tabs a:hover {
+      border-bottom: none; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #e7e7e7; }

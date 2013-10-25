@@ -1,54 +1,64 @@
-body {
-  background-color: #100413; }
+/*
+Syntax error: Illegal nesting: Only properties may be nested beneath properties.
+        on line 60 of ./stylesheets/sass/custom.sass
 
-.navbar-default {
-  height: 80px; }
-  .navbar-default .navbar-nav {
-    font-weight: 700;
-    padding: 15px; }
-    .navbar-default .navbar-nav li {
-      margin-right: 57px; }
-    .navbar-default .navbar-nav i {
-      font-size: 30px; }
+55:           border-bottom: none
+56: footer
+57:   background-color: $grey
+58:   ul
+59:     display: inline-block
+60:       li
+61:         display: inline-block
+62:         background-color: #f00
+63: .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+64:   background-color: #e7e7e7
 
-.top-frame .row {
-  margin-bottom: 300px; }
-.top-frame .circle {
-  background-color: #dddddd;
-  color: #222222;
-  -webkit-border-radius: 15vh;
-  border-radius: 13vh;
-  width: 25vh;
-  height: 25vh;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 13vh;
-  padding-top: 11vh;
-  font-weight: 700; }
-
-.spacer {
-  height: 15vh; }
-
-.row.lower {
-  background-color: #eeeeee;
-  overflow: auto;
-  padding: 10px 40px; }
-  .row.lower p {
-    font-size: 16px; }
-  .row.lower.events img {
-    margin: 0 auto;
-    display: block; }
-  .row.lower.events p {
-    padding: 20px 0; }
-  .row.lower.about img {
-    margin: 0 auto; }
-  .row.lower.about .nav-tabs {
-    border-bottom: none;
-    margin-bottom: 20px; }
-    .row.lower.about .nav-tabs a {
-      color: #222222; }
-    .row.lower.about .nav-tabs a:hover {
-      border-bottom: none; }
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  background-color: #e7e7e7; }
+Backtrace:
+./stylesheets/sass/custom.sass:60
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:13:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:29:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:39:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:29:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:39:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:29:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:39:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:29:in `visit_children'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:36:in `visit_root'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:24:in `visit'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/tree/root_node.rb:19:in `render'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/home/dalek49/.rvm/gems/ruby-2.0.0-p247@tam_service_proj/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Illegal nesting: Only properties may be nested beneath properties.\A         on line 60 of ./stylesheets/sass/custom.sass\A \A 55:           border-bottom: none\A 56: footer\A 57:   background-color: $grey\A 58:   ul\A 59:     display: inline-block\A 60:       li\A 61:         display: inline-block\A 62:         background-color: #f00\A 63: .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus\A 64:   background-color: #e7e7e7"; }

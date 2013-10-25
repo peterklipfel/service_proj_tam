@@ -27,21 +27,24 @@ body
     margin-top: 13vh
     padding-top: 11vh
     font-weight: 700
+.spacer
+  height: 15vh
 .row
-  &.about
+  &.lower
     background-color: #eee
     overflow: auto
     padding: 10px 40px
-    img
-      margin: 0 auto
-    p
-      font-size: 16px
-    .nav-tabs
-      border-bottom: none
-      margin-bottom: 20px
-      & a
-        color: $dark
-      & a:hover
+    &.about
+      img
+        margin: 0 auto
+      p
+        font-size: 16px
+      .nav-tabs
         border-bottom: none
+        margin-bottom: 20px
+        & a
+          color: $dark
+        & a:hover
+          border-bottom: none
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
   background-color: #e7e7e7 

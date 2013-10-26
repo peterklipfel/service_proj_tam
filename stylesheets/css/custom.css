@@ -16,18 +16,18 @@ body {
 .top-frame .circle {
   background-color: #dddddd;
   color: #333333;
-  -webkit-border-radius: 15vh;
-  border-radius: 13vh;
-  width: 25vh;
-  height: 25vh;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 13vh;
-  padding-top: 11vh;
+  margin-top: 50px;
+  padding-top: 40px;
   font-weight: 700; }
 
 .spacer {
-  height: 15vh; }
+  height: 15px; }
 
 .row.lower {
   background-color: #eeeeee;

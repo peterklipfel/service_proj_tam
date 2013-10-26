@@ -15,7 +15,7 @@ body {
   margin-bottom: 300px; }
 .top-frame .circle {
   background-color: #dddddd;
-  color: #222222;
+  color: #333333;
   -webkit-border-radius: 15vh;
   border-radius: 13vh;
   width: 25vh;
@@ -46,13 +46,23 @@ body {
     border-bottom: none;
     margin-bottom: 20px; }
     .row.lower.about .nav-tabs a {
-      color: #222222; }
+      color: #333333; }
     .row.lower.about .nav-tabs a:hover {
       border-bottom: none; }
-  .row.lower.faq {
-    font-size: 16px; }
-    .row.lower.faq h4 {
-      font-size: 20px; }
+  .row.lower.faq p {
+    font-size: 18px; }
+  .row.lower.faq .faq-select {
+    height: 60px; }
+    .row.lower.faq .faq-select.active {
+      background-color: #dddddd; }
+  .row.lower.faq a {
+    color: #333333;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 22px; }
+    .row.lower.faq a:hover {
+      color: black;
+      text-decoration: none; }
 
 footer {
   background-color: #777777; }

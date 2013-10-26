@@ -1,6 +1,6 @@
 $purple: #100413
 $light: #ddd
-$dark: #222
+$dark: #333
 $grey: #777
 body
   background-color: $purple
@@ -54,9 +54,20 @@ body
         & a:hover
           border-bottom: none
     &.faq
-      font-size: 16px
-      & h4
-        font-size: 20px
+      & p
+        font-size: 18px
+      & .faq-select
+        height: 60px
+        &.active
+          background-color: $light
+      & a
+        color: $dark
+        padding-top: 15px
+        display: inline-block
+        font-size: 22px
+        &:hover
+          color: #000
+          text-decoration: none
 footer
   background-color: $grey
   .footer-left

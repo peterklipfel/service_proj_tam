@@ -3,9 +3,9 @@ $( function() {
   var containerHeight = $('.top-frame').height()
   $(document).scroll(function(){
     if($(document).scrollTop() > containerHeight)
-      $('.navbar-fixed-top').show()
+      $('.navbar-fixed-top').fadeIn(300);
     else
-      $('.navbar-fixed-top').hide()
+      $('.navbar-fixed-top').fadeOut(300)
   })
   if( ($(document).width() > 767) && parseInt($('#about-text').height()) > 600 ){
     $('.about-image').css('margin-top', 
@@ -18,4 +18,18 @@ $( function() {
     $(this).parent().addClass('active');
     $(this).tab('show')
   })
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
 })

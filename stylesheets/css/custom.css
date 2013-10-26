@@ -49,6 +49,10 @@ body {
       color: #222222; }
     .row.lower.about .nav-tabs a:hover {
       border-bottom: none; }
+  .row.lower.faq {
+    font-size: 16px; }
+    .row.lower.faq h4 {
+      font-size: 20px; }
 
 footer {
   background-color: #777777; }

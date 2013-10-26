@@ -1,7 +1,6 @@
 $( function() {
   $('.navbar-fixed-top').hide()
   var containerHeight = $('.top-frame').height()
-  console.log(containerHeight)
   $(document).scroll(function(){
     if($(document).scrollTop() > containerHeight)
       $('.navbar-fixed-top').show()
@@ -13,4 +12,10 @@ $( function() {
       parseInt($('#about-title').outerHeight(true))+parseInt($('#about-tab').outerHeight())
     )
   }
+  $('#faq-tab a').click(function (e) {
+    e.preventDefault()
+    $(this).parent().siblings().removeClass('active');
+    $(this).parent().addClass('active');
+    $(this).tab('show')
+  })
 })

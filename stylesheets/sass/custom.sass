@@ -55,10 +55,17 @@ body
           border-bottom: none
 footer
   background-color: $grey
-  ul
+  .footer-left
     display: inline-block
-      li
-        display: inline-block
-        background-color: #f00
+  .footer-right
+    float: right
+    margin-top: 30px
+    margin-right: 30px
+    & a
+      font-size: 30px
+      color: #fff
+      text-decoration: none
+      &:hover
+        color: #bbb
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
   background-color: #e7e7e7 

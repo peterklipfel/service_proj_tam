@@ -54,17 +54,19 @@ body {
   .row.lower.faq p {
     font-size: 18px; }
   .row.lower.faq .faq-select {
-    height: 60px; }
+    height: 80px; }
     .row.lower.faq .faq-select.active {
       background-color: #dddddd; }
-  .row.lower.faq a {
-    color: #333333;
-    padding-top: 15px;
-    display: inline-block;
-    font-size: 22px; }
-    .row.lower.faq a:hover {
-      color: black;
-      text-decoration: none; }
+    .row.lower.faq .faq-select a {
+      color: #333333;
+      padding-top: 4%;
+      display: inline-block;
+      font-size: 22px; }
+      .row.lower.faq .faq-select a:hover {
+        color: black;
+        text-decoration: none; }
+  .row.lower.faq p {
+    margin-top: 13%; }
 
 footer {
   background-color: #777777; }

@@ -1,5 +1,9 @@
 body {
-  background-color: #100413; }
+  background-image: url("../../images/freerun.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter; }
 
 .navbar-default {
   height: 80px; }
@@ -11,8 +15,23 @@ body {
     .navbar-default .navbar-nav i {
       font-size: 30px; }
 
+.title {
+  position: relative; }
+  .title img {
+    width: 50%;
+    min-width: 350px;
+    display: block;
+    margin: 0 auto; }
+
+.before {
+  left: 50%;
+  margin-right: -30px; }
+  .before img {
+    display: block;
+    margin: 0 auto; }
+
 .top-frame .row {
-  margin-bottom: 300px; }
+  margin-bottom: 150px; }
 .top-frame .circle {
   background-color: #dddddd;
   color: #333333;
@@ -27,6 +46,10 @@ body {
   font-weight: 700; }
   .top-frame .circle i {
     font-size: 50px; }
+  .top-frame .circle:hover {
+    transition: background-color 0.5s ease;
+    background-color: #f33647;
+    color: #dddddd; }
 
 .border {
   background-image: url("../../images/border.png");
@@ -59,7 +82,8 @@ body {
   .row.lower.faq p {
     font-size: 18px; }
   .row.lower.faq .faq-select {
-    height: 80px; }
+    height: 80px;
+    font-weight: 300; }
     .row.lower.faq .faq-select.active {
       background-color: #dddddd; }
     .row.lower.faq .faq-select a {
@@ -72,21 +96,46 @@ body {
         text-decoration: none; }
   .row.lower.faq p {
     margin-top: 13%; }
+  .row.lower.sign {
+    background-color: #1d6279;
+    color: #dddddd;
+    text-align: center; }
+    .row.lower.sign.sign-title {
+      color: #dddddd; }
 
 footer {
-  background-color: #777777; }
+  font-family: Futura, sans-serif;
+  background-color: black;
+  padding: 50px 40px;
+  text-transform: uppercase; }
   footer .footer-left {
     display: inline-block; }
   footer .footer-right {
     float: right;
-    margin-top: 30px;
-    margin-right: 30px; }
+    text-align: right; }
     footer .footer-right a {
       font-size: 30px;
       color: white;
       text-decoration: none; }
       footer .footer-right a:hover {
         color: #bbbbbb; }
+  footer i {
+    font-family: "Roboto", sans-serif;
+    font-weight: thin; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   background-color: #e7e7e7; }
+
+h2 {
+  font-family: "Futura-CondensedMedium", "Futura", sans-serif;
+  font-weight: 600;
+  font-size: 40pt;
+  letter-spacing: -3px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.blue {
+  color: #1d6279; }
+
+.green {
+  color: #98ea00; }

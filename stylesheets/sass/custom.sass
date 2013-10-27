@@ -1,9 +1,18 @@
 $purple: #100413
+$green: #98ea00
 $light: #ddd
 $dark: #333
 $grey: #777
+$pink: #f33647
+$blue: #1d6279
+$black: #000000
 body
-  background-color: $purple
+  background-image: url('../../images/freerun.png')
+  background-repeat:no-repeat
+  background-size: cover
+  background-attachment: fixed
+  font-family: "Roboto", sans-serif
+  font-weight: lighter
 .navbar-default
   height: 80px
   .navbar-nav
@@ -13,9 +22,23 @@ body
       margin-right: 57px
     i
       font-size: 30px
+.title
+  position: relative
+  & img
+    width: 50%
+    min-width: 350px
+    display: block
+    margin: 0 auto
+.before
+  position:relative
+  left: 50%
+  margin-right: -30px
+  & img
+    display: block
+    margin: 0 auto
 .top-frame
   .row
-    margin-bottom: 300px
+    margin-bottom: 150px
   .circle
     background-color: $light
     color: $dark
@@ -30,6 +53,10 @@ body
     font-weight: 700
     & i
       font-size: 50px
+    &:hover
+      transition: background-color 0.5s ease
+      background-color: $pink
+      color: $light
 .border
   background-image: url('../../images/border.png')
   background-repeat: repeat-x
@@ -64,6 +91,7 @@ body
         font-size: 18px
       & .faq-select
         height: 80px
+        font-weight: 300
         &.active
           background-color: $light
         & a
@@ -76,19 +104,44 @@ body
             text-decoration: none
       & p
         margin-top: 13%
+    &.sign
+      background-color: $blue
+      color: $light
+      text-align: center
+      &.sign-title
+        color: $light
 footer
-  background-color: $grey
+  font-family: Futura, sans-serif
+  background-color: $black
+  padding: 50px 40px
+  text-transform: uppercase
   .footer-left
     display: inline-block
   .footer-right
     float: right
-    margin-top: 30px
-    margin-right: 30px
+    text-align: right
     & a
       font-size: 30px
       color: #fff
       text-decoration: none
       &:hover
         color: #bbb
+  & i
+    font-family: 'Roboto', sans-serif
+    font-weight: thin
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
-  background-color: #e7e7e7 
+  background-color: #e7e7e7
+//-------------------//
+// Base Stuff
+//-------------------//
+h2
+  font-family: "Futura-CondensedMedium","Futura", sans-serif
+  font-weight: 600
+  font-size: 40pt
+  letter-spacing: -3px
+  text-transform: uppercase
+  text-align: center
+.blue
+  color: $blue
+.green
+  color: $green

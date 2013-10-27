@@ -7,6 +7,7 @@
   <link href="stylesheets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="stylesheets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="stylesheets/css/custom.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic,300,300italic,100,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -33,45 +34,48 @@
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
-  <img src="http://dummyimage.com/400x100/000/993">
-  <div class='container hidden-xs hidden-sm top-frame'>
-    <div class='row'>
-      <div class='col-md-3'>
-        <a href="#about-section">
-          <div class='circle'>
-            <i class="icon-comment"></i>
-            <div class='top-text'>ABOUT</div>
-          </div>
-        </a>
-      </div>
-      <div class='col-md-3'>
-        <a href="#events-section">
-          <div class='circle'>
-            <i class="icon-calendar"></i>
-            <div class='top-text'>EVENTS</div>
-          </div>
-        </a>
-      </div>
-      <div class='col-md-3'>
-        <a href="#faq-section">
-          <div class='circle'>
-            <i class="icon-question"></i>
-            <div class='top-text'>FAQ</div>
-          </div>
-        </a>
-      </div>
-      <div class='col-md-3'>
+  <!-- <img src="http://dummyimage.com/400x100/000/993"> -->
+<div class="title"><img src="images/top.png"></div>
+<div class='container hidden-xs hidden-sm top-frame'>
+  <div class='row'>
+    <div class='col-md-3'>
+      <a style="text-decoration: none;" href="#about-section">
         <div class='circle'>
-          <i class="icon-pencil"></i>
-          <div class='top-text'>SIGN UP</div>
+          <i class="icon-comment"></i>
+          <div class='top-text'>ABOUT</div>
         </div>
+      </a>
+    </div>
+    <div class='col-md-3'>
+      <a style="text-decoration: none;" href="#events-section">
+        <div class='circle'>
+          <i class="icon-calendar"></i>
+          <div class='top-text'>EVENTS</div>
+        </div>
+      </a>
+    </div>
+    <div class='col-md-3'>
+      <a style="text-decoration: none;" href="#faq-section">
+        <div class='circle'>
+          <i class="icon-question"></i>
+          <div class='top-text'>FAQ</div>
+        </div>
+      </a>
+    </div>
+    <div class='col-md-3'>
+      <div class='circle'>
+        <i class="icon-pencil"></i>
+        <div class='top-text'>SIGN UP</div>
       </div>
     </div>
   </div>
+</div>
+  <div class="before"><img src="images/before.png"></div>
   <div id='about-section' class='row about lower'>
+    <h2 id='about-title'>ABOUT</h2>
     <div class='col-md-6'>
       <div id='about-text'>
-        <h2 id='about-title'>ABOUT</h2>
+        <!-- <h2 id='about-title'>ABOUT</h2> -->
         <ul id="about-tab" class="nav nav-tabs">
           <li class="active"><a href="#purpose" data-toggle="tab">Purpose</a></li>
           <li><a href="#mission" data-toggle="tab">Mission</a></li>
@@ -143,6 +147,7 @@
   <div class='spacer'>
     &nbsp;
   </div>
+  <div class="before"><img src="images/before.png"></div>
   <div id='events-section' class='events row lower'>
     <div class='col-md-3'>
       <h2 class='event-title'>EVENTS</h1>
@@ -156,6 +161,7 @@
   <div class='spacer'>
     &nbsp;
   </div>
+  <div class="before"><img src="images/before.png"></div>
   <div id='faq-section' class='row faq lower'>
     <div class='col-md-12'>
       <div class='faq-text'>
@@ -195,14 +201,28 @@
       </div>
     </div>
   </div>
-  <div class="border">Hello!</div>
+  <!-- <div class="border">Hello!</div>
   <div class='spacer'>
     &nbsp;
+  </div> -->
+  <div id='sign-up' class='row sign lower'>
+    <div class='col-md-12'>
+      <div class='sign-text'>
+        <h2 class='sign-title'>Sign Up</h2>
+        <p>Cupcake lemon drops chocolate bar pudding. Marshmallow ice cream cookie sugar plum topping tootsie roll lemon drops.</p>
+        <a href="https://docs.google.com/a/colorado.edu/forms/d/1lDOXeMqUUQllTGsNnAkThohDU-UNQO88zb6tdjIiMck/viewform"><i class="icon-pencil" style="font-size:60pt"></i></a>
+      </div>
+    </div>
   </div>
   <footer id="footer">
     <div>
-      <div class='footer-left'><img src="http://dummyimage.com/400x100/000/993"></div>
-      <div class='footer-right'><a href="mailto:impacttheyouth@example.com">Contact</a></div>
+      <div class='footer-left'><img src="images/logo.png"></div>
+      <div class='footer-right'>
+        <a href="mailto:impacttheyouth@example.com">Contact Us</a><br>
+        <a href="">Link?</a><br>
+        <i class="blue">impacttheyouth@example.com</i><br>
+        <i class="green">2013, University of Colorado at Boulder</i>
+      </div>
     </div>
   </footer>
 </body>

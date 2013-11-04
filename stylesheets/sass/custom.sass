@@ -110,6 +110,11 @@ body
       text-align: center
       &.sign-title
         color: $light
+      & a
+        color: $light
+        &:hover
+          transition: color 0.5s ease
+          color: $purple
 footer
   font-family: Futura, sans-serif
   background-color: $black
@@ -125,6 +130,7 @@ footer
       color: #fff
       text-decoration: none
       &:hover
+        transition: color 0.5s ease
         color: #bbb
   & i
     font-family: 'Roboto', sans-serif

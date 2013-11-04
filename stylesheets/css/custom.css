@@ -24,8 +24,7 @@ body {
     margin: 0 auto; }
 
 .before {
-  left: 50%;
-  margin-right: -30px; }
+  left: 50%; }
   .before img {
     display: block;
     margin: 0 auto; }
@@ -59,54 +58,56 @@ body {
 .spacer {
   height: 15vh; }
 
-.row.lower {
-  background-color: #eeeeee;
-  overflow: auto;
-  padding: 50px 40px; }
-  .row.lower p {
-    font-size: 16px; }
-  .row.lower.events img {
-    margin: 0 auto;
-    display: block; }
-  .row.lower.events p {
-    padding: 20px 0; }
-  .row.lower.about img {
-    margin: 0 auto; }
-  .row.lower.about .nav-tabs {
-    border-bottom: none;
-    margin-bottom: 20px; }
-    .row.lower.about .nav-tabs a {
-      color: #333333; }
-    .row.lower.about .nav-tabs a:hover {
-      border-bottom: none; }
-  .row.lower.faq p {
-    font-size: 18px; }
-  .row.lower.faq .faq-select {
-    height: 80px;
-    font-weight: 300; }
-    .row.lower.faq .faq-select.active {
-      background-color: #dddddd; }
-    .row.lower.faq .faq-select a {
-      color: #333333;
-      padding-top: 4%;
-      display: inline-block;
-      font-size: 22px; }
-      .row.lower.faq .faq-select a:hover {
-        color: black;
-        text-decoration: none; }
-  .row.lower.faq p {
-    margin-top: 13%; }
-  .row.lower.sign {
-    background-color: #1d6279;
-    color: #dddddd;
-    text-align: center; }
-    .row.lower.sign.sign-title {
-      color: #dddddd; }
-    .row.lower.sign a {
-      color: #dddddd; }
-      .row.lower.sign a:hover {
-        transition: color 0.5s ease;
-        color: #100413; }
+.row {
+  margin: 0; }
+  .row.lower {
+    background-color: #eeeeee;
+    overflow: auto;
+    padding: 50px 40px; }
+    .row.lower p {
+      font-size: 16px; }
+    .row.lower.events img {
+      margin: 0 auto;
+      display: block; }
+    .row.lower.events p {
+      padding: 20px 0; }
+    .row.lower.about img {
+      margin: 0 auto; }
+    .row.lower.about .nav-tabs {
+      border-bottom: none;
+      margin-bottom: 20px; }
+      .row.lower.about .nav-tabs a {
+        color: #333333; }
+      .row.lower.about .nav-tabs a:hover {
+        border-bottom: none; }
+    .row.lower.faq p {
+      font-size: 18px; }
+    .row.lower.faq .faq-select {
+      height: 80px;
+      font-weight: 300; }
+      .row.lower.faq .faq-select.active {
+        background-color: #dddddd; }
+      .row.lower.faq .faq-select a {
+        color: #333333;
+        padding-top: 4%;
+        display: inline-block;
+        font-size: 22px; }
+        .row.lower.faq .faq-select a:hover {
+          color: black;
+          text-decoration: none; }
+    .row.lower.faq p {
+      margin-top: 13%; }
+    .row.lower.sign {
+      background-color: #1d6279;
+      color: #dddddd;
+      text-align: center; }
+      .row.lower.sign.sign-title {
+        color: #dddddd; }
+      .row.lower.sign a {
+        color: #dddddd; }
+        .row.lower.sign a:hover {
+          transition: color 0.5s ease;
+          color: #100413; }
 
 footer {
   font-family: Futura, sans-serif;

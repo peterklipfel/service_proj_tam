@@ -65,7 +65,7 @@ body {
     overflow: auto;
     padding: 50px 40px; }
     .row.lower p {
-      font-size: 16px; }
+      font-size: 20px; }
     .row.lower.events img {
       margin: 0 auto;
       display: block; }
@@ -77,11 +77,12 @@ body {
       border-bottom: none;
       margin-bottom: 20px; }
       .row.lower.about .nav-tabs a {
-        color: #333333; }
+        color: #333333;
+        font-size: 26px; }
       .row.lower.about .nav-tabs a:hover {
         border-bottom: none; }
     .row.lower.faq p {
-      font-size: 18px; }
+      font-size: 22px; }
     .row.lower.faq .faq-select {
       height: 80px;
       font-weight: 300; }
@@ -91,7 +92,7 @@ body {
         color: #333333;
         padding-top: 4%;
         display: inline-block;
-        font-size: 22px; }
+        font-size: 26px; }
         .row.lower.faq .faq-select a:hover {
           color: black;
           text-decoration: none; }
@@ -136,7 +137,7 @@ footer {
 h2 {
   font-family: "Futura-CondensedMedium", "Futura", sans-serif;
   font-weight: 600;
-  font-size: 40pt;
+  font-size: 42pt;
   letter-spacing: -3px;
   text-transform: uppercase;
   text-align: center; }

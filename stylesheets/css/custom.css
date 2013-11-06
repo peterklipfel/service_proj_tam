@@ -47,7 +47,7 @@ body {
     font-size: 50px; }
   .top-frame .circle:hover {
     transition: background-color 0.5s ease;
-    background-color: #f33647;
+    background-color: #39b54a;
     color: #dddddd; }
 
 .border {
@@ -98,7 +98,7 @@ body {
     .row.lower.faq p {
       margin-top: 13%; }
     .row.lower.sign {
-      background-color: #1d6279;
+      background-color: #063473;
       color: #dddddd;
       text-align: center; }
       .row.lower.sign.sign-title {
@@ -142,7 +142,7 @@ h2 {
   text-align: center; }
 
 .blue {
-  color: #1d6279; }
+  color: #063473; }
 
 .green {
-  color: #98ea00; }
+  color: #39b54a; }

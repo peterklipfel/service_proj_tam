@@ -7,22 +7,22 @@ $( function() {
     else { $('.navbar-fixed-top').fadeOut(300) }
 
     switch(true){
-      case (top > $('#faq-section').position().top+$('#faq-section').height()/3):
+      case (top > $('#faq-section').position().top+$('#faq-section').height()/6):
         $('#nav-signup').siblings().removeClass('active')
         $('#nav-signup').addClass('active')
         console.log($('#nav-about').siblings())
         break;
-      case (top > $('#faq-section').position().top):
+      case (top > $('#faq-section').position().top-200):
         $('#nav-faq').siblings().removeClass('active')
         $('#nav-faq').addClass('active')
         console.log('2')
         break;
-      case (top > $('#events-section').position().top):
+      case (top > $('#events-section').position().top-200):
         $('#nav-events').siblings().removeClass('active')
         $('#nav-events').addClass('active')
         console.log('3')
         break;
-      case (top > $('#about-section').position().top):
+      case (top > $('#about-section').position().top-200):
         $('#nav-about').siblings().removeClass('active')
         $('#nav-about').addClass('active')
         console.log($('#nav-about').siblings())

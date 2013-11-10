@@ -8,12 +8,15 @@ body {
 .navbar-default {
   height: 80px; }
   .navbar-default .navbar-nav {
+    background-color: #f8f8f8;
     font-weight: 700;
     padding: 15px; }
     .navbar-default .navbar-nav li {
       margin-right: 57px; }
     .navbar-default .navbar-nav i {
       font-size: 30px; }
+  .navbar-default .navbar-right {
+    padding-bottom: 0px; }
 
 .title {
   position: relative; }
@@ -47,8 +50,7 @@ body {
     font-size: 50px; }
   .top-frame .circle:hover {
     transition: background-color 0.5s ease;
-    background-color: #39b54a;
-    color: #dddddd; }
+    background-color: #ffbe00; }
 
 .border {
   background-image: url("../../images/border.png");
@@ -99,11 +101,11 @@ body {
     .row.lower.faq p {
       margin-top: 13%; }
     .row.lower.sign {
-      background-color: #063473;
-      color: #dddddd;
+      background-color: #ffbe00;
+      color: #333333;
       text-align: center; }
       .row.lower.sign.sign-title {
-        color: #dddddd; }
+        color: #333333; }
       .row.lower.sign a {
         color: #dddddd; }
         .row.lower.sign a:hover {
@@ -142,8 +144,8 @@ h2 {
   text-transform: uppercase;
   text-align: center; }
 
-.blue {
-  color: #063473; }
+.yellow {
+  color: #ffbe00; }
 
-.green {
-  color: #39b54a; }
+.grey {
+  color: #a6a6a6; }

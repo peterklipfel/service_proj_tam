@@ -2,11 +2,11 @@ $purple: #100413
 $green: #39b54a
 $light: #ddd
 $dark: #333
-$grey: #777
+$grey: #a6a6a6
 $pink: #f33647
 $blue: #063473
 $black: #000000
-$yellow: #f2ea1b
+$yellow: #ffbe00
 body
   background-image: url('../../images/freerun.png')
   background-repeat:no-repeat
@@ -17,12 +17,15 @@ body
 .navbar-default
   height: 80px
   .navbar-nav
+    background-color: #f8f8f8
     font-weight: 700
     padding: 15px
     li
       margin-right: 57px
     i
       font-size: 30px
+  .navbar-right
+    padding-bottom: 0px
 .title
   position: relative
   & img
@@ -55,8 +58,7 @@ body
       font-size: 50px
     &:hover
       transition: background-color 0.5s ease
-      background-color: $green
-      color: $light
+      background-color: $yellow
 .border
   background-image: url('../../images/border.png')
   background-repeat: repeat-x
@@ -107,11 +109,11 @@ body
       & p
         margin-top: 13%
     &.sign
-      background-color: $blue
-      color: $light
+      background-color: $yellow
+      color: $dark
       text-align: center
       &.sign-title
-        color: $light
+        color: $dark
       & a
         color: $light
         &:hover
@@ -149,7 +151,7 @@ h2
   letter-spacing: -3px
   text-transform: uppercase
   text-align: center
-.blue
-  color: $blue
-.green
-  color: $green
+.yellow
+  color: $yellow
+.grey
+  color: $grey
